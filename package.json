@@ -1,0 +1,19 @@
+{
+  "name": "POWNFTv3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "truffle compile",
+    "migrate": " truffle migrate --network goerli"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.3.1",
+    "ethers": "5.0.31"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
+}
